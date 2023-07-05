@@ -1,0 +1,8 @@
+function reverseLetter(str) {
+ // .replace .reverse .join
+  let filter = str.replace(/[^a-z]/gi,'')
+  let split = filter.split('');
+  let rev = split.reverse();
+  let join = rev.join('');
+  return join; 
+}
